@@ -1,6 +1,6 @@
 [user]
-	name = Jake Wiesler
-	email = jakewiesler@gmail.com
+	name = Razvan Rauta
+	email = 40596596+RazvanRauta@users.noreply.github.com
 [core]
 	excludesfile = ~/.gitignore_global
     editor = nvim
