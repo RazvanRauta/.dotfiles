@@ -46,6 +46,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' } " Color scheme
 Plug 'neovim/nvim-lspconfig'     
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
