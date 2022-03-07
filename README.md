@@ -3,6 +3,21 @@
 1. Clone this repository
 2. Run `install.sh`
 3. Open up new window to initiate `zsh` shell
+4. 
+```sh
+#Install node
+nvm install 14
+
+# install lsp
+npm i -g \
+		  vscode-langservers-extracted \
+		  cssmodules-language-server \
+		  dockerfile-language-server-nodejs \
+		  stylelint-lsp \
+		  @tailwindcss/language-server \
+		  typescript \
+		  typescript-language-server
+```
 
 ## Current issues
 

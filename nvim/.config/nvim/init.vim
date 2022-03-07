@@ -59,8 +59,7 @@ Plug 'lewis6991/gitsigns.nvim'
 " Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'natecraddock/telescope-zf-native.nvim'
 call plug#end()
 
 lua require('jakewies')

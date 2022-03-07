@@ -38,16 +38,5 @@ antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 # install neovim plugins
 nvim --headless +PlugInstall +qall
 
-# install lsp
-npm i -g \
-		  vscode-langservers-extracted \
-		  cssmodules-language-server \
-		  dockerfile-language-server-nodejs \
-		  stylelint-lsp \
-		  @tailwindcss/language-server \
-		  typescript \
-		  typescript-language-server
-
-
 # Use kitty terminal on MacOS
 [ `uname -s` = 'Darwin' ] && stow kitty
