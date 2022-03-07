@@ -1,8 +1,0 @@
-require('rrazvan.gitsigns')
-require('rrazvan.lualine')
-require('rrazvan.lsp')
-require('rrazvan.telescope')
-require('rrazvan.treesitter')
-require('rrazvan.tokyonight')
-require('rrazvan.nvim-tree')
-require('rrazvan.bufferline')
